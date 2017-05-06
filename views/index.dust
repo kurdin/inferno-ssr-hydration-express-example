@@ -1,0 +1,29 @@
+{>"layout"/}
+
+{<styles}
+<style>
+
+.active {
+	padding: 5px;
+	background: black;
+  color: white;
+}
+
+.pages {
+	padding: 5px;
+}
+
+</style>
+{/styles}
+
+{<main}
+<div class="columns is-gapless editor-wrap">
+	<div class="column editor-column">
+		<div id="app">{InfernoApp|s}</div>
+	</div>
+</div>	
+{/main}
+
+{<scripts}
+  <script src="/js/build/main-bundle.js"></script>
+{/scripts}

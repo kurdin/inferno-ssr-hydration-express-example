@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css{staticAssetsCache}">
+  {+styles /}
+  {@AppSharedData /}
+</head>
+
+<body class="home-template" id="tryit">
+  <main>
+    <section class="section">
+      <div class="container">
+      {+main/}
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  </footer>
+
+{!<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.25/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.25/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.25/angular-resource.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.25/angular-sanitize.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ4l8elLj5ZTRCvAVNwWU34TNyfLNjVZc&language=en" type="text/javascript"></script>
+!}
+{+scripts /}
+
+</body>
+</html>

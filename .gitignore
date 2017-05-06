@@ -1,0 +1,9 @@
+.DS_Store
+logs
+node_modules
+build
+config/lastcommit*
+public/js/build/**
+tmp
+.build
+rev-manifest.json
