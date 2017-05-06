@@ -1,8 +1,8 @@
-# inferno-ssr-hydration-bug
+# inferno-ssr-hydration-express-example
 
-$ git clone https://github.com/kurdin/inferno-ssr-hydration-bug
+$ git clone https://github.com/kurdin/inferno-ssr-hydration-express-example
 
-$ cd inferno-ssr-hydration-bug
+$ cd inferno-ssr-hydration-express-example
 
 $ npm i
 
